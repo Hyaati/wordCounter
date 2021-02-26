@@ -1,0 +1,9 @@
+<h1>we are on count page</h1>
+
+<p>You text is: </p>  <h4> " {{ text }}"</h4>
+<br />
+<h3>There are {{words_count}} words in your text </h3>
+
+{% for word in sorted_count %}
+<p>{{word}}</p>
+{% endfor %}
